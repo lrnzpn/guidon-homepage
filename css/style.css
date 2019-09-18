@@ -1,0 +1,174 @@
+/* nav */
+.main-nav {
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    text-transform: uppercase;
+    background-color: white;
+    z-index: 999;
+}
+
+.nav-btn {
+    display: flex;
+}
+
+.menu,
+.search {
+    text-align: center;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.nav-btn i {
+    font-size: 20px;
+}
+
+.nav-btn .text {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.mast-container {
+    margin: 0 auto;
+    min-width: 500px;
+}
+
+.mast-container img {
+    margin: 15px 0;
+    height: 40px;
+    padding-left: 40px;
+}
+
+.dropdown-nav {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px gray solid;
+    background-color: white;
+    padding: 15px 0;
+}
+
+.dropdown-nav a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+/* header */
+
+.header-img {
+    min-height: 500px;
+    width: 100%;
+    background: url(../assets/cover-021119-SEC-C-206B-Incident-Perfecto-9.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 75px;
+    /* filter: brightness(50%); */
+}
+
+.heading-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 400px;
+    position: absolute;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.heading-container h1>a,
+.heading-container p>a {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+}
+
+.heading-container p {
+    font-size: .75em;
+    text-transform: uppercase;
+}
+
+/* news blocks */
+.news-blocks {
+    margin: -90px auto 0 auto;
+    width: 80%;
+    padding: 0.75em;
+    background-color: white;
+    position: relative;
+}
+
+.news-blocks .news-img {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.image1 {
+    background: url('../assets/092118-Martial-Law-Protest-Salumbre-9-400x267.jpg');
+}
+
+.image2 {
+    background: url('../assets/ColumnTag-ChalkMarks-400x247.png')
+}
+
+.image3 {
+    background: url('../assets/071919-August-Sports-UAAP-Season-82-Illustration-2-Masiglat-400x267.jpg')
+}
+
+.image4 {
+    background: url('../assets/072019-Beyond-Loyola-Questionable-Leaders-Illustration-Granda-400x206.jpg')
+}
+
+.image5 {
+    background: url('../assets/072119-Features-Kpop-Illustration-Ng-400x187.jpg')
+}
+
+.image6 {
+    background: url('../assets/073019-Inquiry-Teaching-under-fire-Mariano-1-400x225.jpg')
+}
+
+.news-text {
+    border-bottom: 1px gray solid;
+    margin-bottom: 20px;
+}
+
+.news-text a {
+    float: right;
+    text-transform: uppercase;
+    color: #2d2d35;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.news-heading {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.news-heading a {
+    color: black;
+    text-decoration: none;
+}
+
+.news-heading>a {
+    font-weight: bold;
+}
+
+.news-heading p>a {
+    font-size: 12.5px;
+    color: #2d2d35;
+}
+
+footer {
+    border-top: 1px gray solid;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    height: 50px;
+}
